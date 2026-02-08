@@ -4,8 +4,9 @@
 
 ### Test 1: Constructor Creates Place Object
 - **Description**: Should create a new Place object with given properties
-- **Code**: `const paris = new Place("Paris", ["Eiffel Tower"], "Spring", "Beautiful city")`
+- **Code**: `const paris = new Place("France", ["Eiffel Tower"], "winter", "Beautiful city")`
 - **Expected**: `paris` should be an object with all properties set
+- //i.e console.log(france) shows the object
 - **Status**: ✅ PASS
 
 ### Test 2: Properties Are Accessible  
