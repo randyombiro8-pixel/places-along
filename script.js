@@ -6,8 +6,7 @@
     this.notes = notes;
 
  }
- const place = new place('test',['test'],'test','test');
- console.log('constructor test:',testPlace);
+
 //a way to display the info
 Place.prototype.displayInfo = function() {
   return `Location: ${this.location}, 
