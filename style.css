@@ -1,0 +1,85 @@
+/* Cleaner text headers */
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+/* Clean place cards */
+.place-card h3 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+}
+
+.place-card .time {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.place-card .landmark-preview {
+    color: #34495e;
+    font-size: 1rem;
+}
+
+/* Detail items */
+.detail-label {
+    font-weight: 600;
+    color: #2c3e50;
+    min-width: 120px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.detail-value {
+    color: #34495e;
+    flex: 1;
+    line-height: 1.6;
+}
+
+/* Code output */
+.code-output {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.code-output p {
+    margin-bottom: 12px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.code-output code {
+    font-family: 'Courier New', monospace;
+    color: #2c3e50;
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    display: block;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    border: 1px solid #e0e0e0;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    padding: 20px;
+    border-top: 1px solid #ecf0f1;
+}

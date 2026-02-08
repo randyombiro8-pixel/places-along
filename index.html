@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places I've Been - Travel Journal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Places I've Been</h1>
+        <p class="subtitle">My personal travel journal with memories from around the world</p>
+    </header>
+    
+    <main>
+        <section>
+            <h2>My Travel Destinations</h2>
+            <div id="places-container" class="places-container">
+                <!-- Places will be dynamically inserted here -->
+                <div class="empty-state">
+                    <p>No places added yet. Start your journey!</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="place-details" class="details-container" style="display: none;">
+            <!-- Place details will appear here when clicked -->
+        </section>
+    </main>
+    
+    
+    
+    <!-- JavaScript files -->
+    <script src="script.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>
