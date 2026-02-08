@@ -9,8 +9,10 @@
 - //i.e console.log(france) shows the object
 - **Status**: ✅ PASS
 
-### Test 2: Properties Are Accessible  
-- **Description**: Should be able to access location, landmarks, timeOfYear, notes
-- **Code**: `paris.location === "Paris" && Array.isArray(paris.landmarks)`
-- **Expected**: All properties return correct values
-- **Status**: ✅ PASS
+### Test 2: Properties Are Accessible   
+## should show as below
+console.log(paris.location); // "Paris"
+console.log(paris.landmarks); // ["Eiffel Tower"]
+console.log(paris.timeOfYear); // "Spring"
+console.log(paris.notes); // "Loved it!"
+ -**Status**: ✅ PASS
