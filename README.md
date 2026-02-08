@@ -10,9 +10,14 @@
 - **Status**: ✅ PASS
 
 ### Test 2: Properties Are Accessible   
-## should show as below
-console.log(paris.location); // "Paris"
-console.log(paris.landmarks); // ["Eiffel Tower"]
-console.log(paris.timeOfYear); // "Spring"
-console.log(paris.notes); // "Loved it!"
+## should show as below  
+
+console.log(paris.location); // "Paris"  
+
+console.log(paris.landmarks); // ["Eiffel Tower"]  
+
+console.log(paris.timeOfYear); // "Spring"  
+
+console.log(paris.notes); // "Loved it!"  
+
  -**Status**: ✅ PASS
