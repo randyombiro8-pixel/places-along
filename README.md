@@ -22,7 +22,7 @@ console.log(paris.notes); // "Loved it!"
 
  -**Status**: ✅ PASS
 
-   ### Does display()info work   
+   ###  Test 3: Does display()info work   
    console.log(paris.displayInfo());  
    
 // Shows: "Location: Paris, Landmarks: Eiffel Tower, Visited: Spring, Notes: Loved it!"
