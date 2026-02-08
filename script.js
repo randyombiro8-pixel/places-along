@@ -16,7 +16,7 @@ Place.prototype.displayInfo = function() {
           Notes: ${this.notes}`;
 };
 
-
+//shows the display
 const paris = new Place("Paris", ["Eiffel Tower", "Louvre"], "Spring", "Loved it!");
 console.log("Test 3 - displayInfo method:");
 console.log(paris.displayInfo());
